@@ -1,3 +1,4 @@
+-- Creating table columns to import the dataset
 alter TABLE covid_deaths
 ADD COLUMN iso_code VARCHAR,
 ADD COLUMN continent VARCHAR,
